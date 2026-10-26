@@ -4,7 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>China Field Guide</title>
-  <!-- Leaflet for maps (needs internet; the guide still works without it) -->
+  <!-- Fonts and Leaflet maps need internet; the guide still works without them -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
   <link rel="stylesheet" href="styles.css">
@@ -13,10 +16,10 @@
   <header class="site-header">
     <a href="#/" class="brand">
       <span class="seal">中</span>
-      <span class="brand-text">China <em>Field Guide</em></span>
+      <span class="brand-text">china field guide</span>
     </a>
     <nav class="nav">
-      <a href="#/">Destinations</a>
+      <a href="#/">Regions</a>
       <a href="#/history">History</a>
       <a href="#/phrases">Phrases</a>
       <a href="#/essentials">Essentials</a>
@@ -27,11 +30,13 @@
   <main id="app"></main>
 
   <footer class="site-footer">
-    A personal guide · history first, hotels never.
+    <span class="brand-text">china field guide</span>
+    <span>History first, hotels never. Photos via Wikimedia Commons · Maps © OpenStreetMap</span>
   </footer>
 
   <!-- Content lives in /data. Add a destination by adding a file there and listing it below. -->
   <script src="data/china.js"></script>
+  <script src="data/regions.js"></script>
   <script src="data/beijing.js"></script>
   <script src="app.js"></script>
 </body>

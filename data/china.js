@@ -81,12 +81,4 @@ window.GUIDE.china = {
     { title: "Trains", text: "High-speed rail connects most major cities and is often faster than flying. Bring your passport: it is your ticket." },
     { title: "Best seasons", text: "Spring (April–May) and autumn (September–October) are pleasant almost everywhere. Avoid travelling around Chinese New Year and the first week of October (Golden Week), when the whole country is on the move." },
   ],
-
-  comingSoon: [
-    { name: "Xi'an", zh: "西安", coords: [34.3416, 108.9398], tagline: "Terracotta Army and the eastern end of the Silk Road." },
-    { name: "Shanghai", zh: "上海", coords: [31.2304, 121.4737], tagline: "From fishing town to treaty port to megacity." },
-    { name: "Guilin & Yangshuo", zh: "桂林 · 阳朔", coords: [25.2736, 110.2900], tagline: "The karst landscapes of a thousand scroll paintings." },
-    { name: "Chengdu", zh: "成都", coords: [30.5728, 104.0668], tagline: "Pandas, teahouses and Sichuan pepper." },
-    { name: "Hangzhou", zh: "杭州", coords: [30.2741, 120.1551], tagline: "West Lake and the poets who loved it." },
-  ],
 };

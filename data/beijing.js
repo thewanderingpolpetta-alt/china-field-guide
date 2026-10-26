@@ -7,6 +7,7 @@ window.GUIDE.destinations.push({
   zh: "北京",
   pinyin: "Běijīng",
   region: "North China · Capital",
+  province: "beijing",
   coords: [39.9042, 116.4074],
   photo: {
     src: WM + "e/ef/The_Forbidden_City_-_View_from_Coal_Hill.jpg/1920px-The_Forbidden_City_-_View_from_Coal_Hill.jpg",
